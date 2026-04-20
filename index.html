@@ -217,27 +217,29 @@
 
         <li class="item">
           <div class="summary">
-            <img
-              class="summary-img"
-              src="img/summary.jpg"
-              width="451"
-              height="259"
-              alt="Картинка"
-            />
+            <picture>
+              <source srcset="img/summary_375.jpg" media="(max-width: 375px)" />
+              <source srcset="img/summary_768.jpg" media="(max-width: 768px)" />
+              <source
+                srcset="img/summary_1440.jpg"
+                media="(max-width: 1440px)"
+              />
+              <img class="summary-img" src="img/summary.jpg" alt="Картинка" />
+            </picture>
             <span class="summary-title"> Все предметы </span>
             <span class="summary-description"> 105 предметов </span>
             <ul class="summary-list">
               <li class="summary-item">
-                <img class="summary-icon" src="img/icon-1.svg" alt="Иконка-1" />
+                <img class="summary-icon" src="img/icon-1.svg" alt="" />
               </li>
               <li class="summary-item">
-                <img class="summary-icon" src="img/icon-2.svg" alt="Иконка-2" />
+                <img class="summary-icon" src="img/icon-2.svg" alt="" />
               </li>
               <li class="summary-item">
-                <img class="summary-icon" src="img/icon-3.svg" alt="Иконка-3" />
+                <img class="summary-icon" src="img/icon-3.svg" alt="" />
               </li>
               <li class="summary-item">
-                <img class="summary-icon" src="img/icon-4.svg" alt="Иконка-4" />
+                <img class="summary-icon" src="img/icon-4.svg" alt="" />
               </li>
             </ul>
           </div>
